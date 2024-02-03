@@ -1,4 +1,7 @@
 function check_email() {
+    console.log("check_email() wurde aufgerufen");
+    console.log("E-Mail-Wert:", email.value);
+    
     if (email.value === "Gymnasium@Hammonense.de") {
         window.location.href = "laden.html";
         nutzername = "Hammo User";
